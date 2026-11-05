@@ -1,7 +1,7 @@
-﻿namespace IdentityManagerServerApi.Domain;
+namespace IdentityManagerServerApi.Domain;
 
 /// <summary>
-/// Aggregate root. <see cref="Book"/> can only be created, changed or removed through this type.
+/// This is the Aggregate root. <see cref="Book"/> can only be created, changed or removed through this type.
 /// </summary>
 /// <remarks>
 /// <see cref="Version"/> is the aggregate's optimistic-concurrency token. Every change to the author or its books
